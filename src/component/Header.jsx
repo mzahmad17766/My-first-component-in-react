@@ -13,7 +13,7 @@ const Header = () => {
     <Navbar/>
     <Routes>
           <Route path="/" key="header" element={<Home/>} />
-          <Route path="/about" key="about" element={<About/>} />  
+          <Route path="/about" key="about" element={<About name="John" age={30}/>} />  
           <Route path="/service" key="service" element={<Services/>}/> 
           <Route path="/contact" key="about" element={<Contact/>} /> 
     </Routes>
